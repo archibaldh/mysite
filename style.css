@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Contemporary';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Contemporary'), local('Contemporary-Regular'), url('https://vicr123.com/assets/fonts/Contemporary-Regular-954a9a92658ecef6afca8dbccd5aab6d.ttf');
+}
+*{
+    color: white;
+    font-family: Contemporary;
+    margin-top: 0;
+}
+body, html {
+    height: 100%;
+}
+body{
+    margin: 0px;
+}
+.topnav p{
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.topnav{
+    height: 48px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(240,10%,15%);
+}
+/*following code copied from w3schools (https://www.w3schools.com/howto/howto_js_topnav.asp) (modified)*/
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+/*w3schools code ends here*/
+.topnav .active {
+    background-color: hsl(219, 52%, 50%);
+}
+.topnav a:hover {
+    background-color: rgb(22, 22, 27);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
+}
+.topnav .active:hover {
+    background-color: hsl(219, 52%, 50%);
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
+}
+.parallaxcover {
+    background: rgba(0, 0, 0, 0.4) url("https://images.unsplash.com/photo-1594717527389-a590b56e8d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paracovertext {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    padding-left: 40px;
+}
+.texthero1{
+    background-color: hsl(240,10%,20%);
+    height: 50%;
+    width: 100%;
+}
+.content{
+    height: 100%;
+}
+.texthero2{
+    height: 50%;
+    width: 100%;
+    background-color: hsl(240,10%,15%);
+}
