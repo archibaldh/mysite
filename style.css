@@ -68,16 +68,18 @@ body{
     top: 45%;
     padding-left: 40px;
 }
-.texthero1{
+.texthero{
     background-color: hsl(240,10%,20%);
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 .content{
     height: 100%;
 }
-.texthero2{
-    height: 50%;
-    width: 100%;
-    background-color: hsl(240,10%,15%);
+#texthero1{
+    width: 50%;
+    float: right;
+}
+#texthero2{
+    width: 50%;
 }
