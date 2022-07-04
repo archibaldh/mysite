@@ -1,3 +1,4 @@
+/*All background images are temporary and will most likely be replaced with something else*/
 @font-face {
     font-family: 'Contemporary';
     font-style: normal;
@@ -53,7 +54,7 @@ body{
     background-color: hsl(219, 52%, 50%);
     box-shadow:0px 5px 10px rgba(0, 0, 0, 0.19);
 }
-.parallaxcover {
+.parallaxcover{
     background: rgba(0, 0, 0, 0.4) url("https://images.unsplash.com/photo-1594717527389-a590b56e8d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -79,7 +80,24 @@ body{
 #texthero1{
     width: 50%;
     float: right;
+    height: 100%;
 }
 #texthero2{
     width: 50%;
+}
+.herotext{
+    margin: auto;
+    text-align: center;
+    padding: 45% 0;
+}
+#cover1{
+    background-image: url("https://www.planisware.com/sites/default/files/contenus/7453/ux-indonesia-pqzrfbhd9r0-unsplash_1625744085_5.81.219.59.jpg");
+}
+#cover2{
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png");
+}
+.footer{
+    background-color: hsl(240,10%,5%);
+    padding: 2% 0;
+    text-align: center;
 }
